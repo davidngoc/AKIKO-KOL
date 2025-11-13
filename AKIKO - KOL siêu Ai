@@ -1,1 +1,162 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top KOL AI Club Leaderboard</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
 
+    <div class="leaderboard-container">
+        <h1>TOP APP VIP</h1>
+        <h2>KOL AI Go Global</h2>
+        
+        <div class="app-list">
+            
+            <a href="https://ai.studio/apps/drive/1qXlsdJB9QtT0-MeKiTb6wgd7jkZdYhiL" class="app-item">
+                <span class="rank rank-1">1</span>
+                <span class="name">TẾT CỦA NÀNG</span>
+                <span class="category">T</span>
+            </a>
+
+            <a href="https://ai.studio/apps/drive/1nL6u6H4kw6sMURfkmMmss1oouKfEQFiy" class="app-item">
+                <span class="rank rank-2">2</span>
+                <span class="name">BÔNG HỒNG TRIỆU ĐÔ</span>
+                <span class="category">B</span>
+            </a>
+
+            <a href="https://ai.studio/apps/drive/1kiqddukFr4Uw_zv3ZlMlFtuX5-1OJvit" class="app-item">
+                <span class="rank rank-3">3</span>
+                <span class="name">TẠO KOL AI</span>
+                <span class="category">T</span>
+            </a>
+            
+            <a href="https://ai.studio/apps/drive/1muxxGQl0jNe1LIdQ0NHacpNv0FfUuSZW" class="app-item">
+                <span class="rank">4</span>
+                <span class="name">PRODUCT COSMETIC VIP</span>
+                <span class="category">P</span>
+            </a>
+
+             <a href=" https://ai.studio/apps/drive/1USQ4RmZFkopGcbT1Tvv0rzZ0dUrHmPk-" class="app-item">
+                <span class="rank">5</span>
+                <span class="name">AI CHỈNH ẢNH SUPER VIP</span>
+                <span class="category">A</span>
+            </a>
+            
+             <a href="https://ai.studio/apps/drive/1MtBgGysaRlxF5EnQB0ciTkc6TCQn8R8U" class="app-item">
+                <span class="rank">6</span>
+                <span class="name">AI LUX FASHION</span>
+                <span class="category">A</span>
+            </a>
+            
+            <a href="https://ai.studio/apps/drive/1_-5p8n8yNYym9QzCaS-9MO6OdwiSzQKO" class="app-item">
+                <span class="rank">7</span>
+                <span class="name">FASHION BABY</span>
+                <span class="category">F</span>
+            </a>
+
+            <a href="https://ai.studio/apps/drive/1xVdViesP1ggXEVHE1hoYnOvjwu4uptTK" class="app-item">
+                <span class="rank">8</span>
+                <span class="name">APP TÁCH QUẦN ÁO</span>
+                <span class="category">A</span>
+            </a>
+            
+            <a href="https://ai.studio/apps/drive/1eGCtz61Uubz_YhyjTAcXbRdFsxxRCR6O" class="app-item">
+                <span class="rank">9</span>
+                <span class="name">THỬ THÁCH XINH ĐẸP</span>
+                <span class="category">T</span>
+            </a>
+            
+        </div>
+    </div>
+
+</body>
+</html>
+body {
+    background-color: #00A896; /* Màu xanh ngọc lục bảo */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Bắt đầu từ phía trên */
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.leaderboard-container {
+    width: 100%;
+    max-width: 650px; /* Giới hạn chiều rộng */
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.app-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Khoảng cách giữa các mục */
+}
+
+.app-item {
+    display: flex;
+    align-items: center;
+    background-color: #F74C7D; /* Màu hồng đậm */
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none; /* Bỏ gạch chân cho link */
+    color: white;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-item:hover {
+    background-color: #E63B6C; /* Màu hồng đậm hơn khi di chuột */
+}
+
+.rank {
+    background-color: #FFC000; /* Màu vàng cam mặc định */
+    color: #333;
+    padding: 5px 12px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-right: 15px;
+    min-width: 20px;
+    text-align: center;
+    font-size: 1.1em;
+}
+/* Tùy chỉnh màu rank cho Top 1, 2, 3 */
+.rank-1 { background-color: #FFD700; color: #333; } /* Vàng Gold */
+.rank-2 { background-color: #C0C0C0; color: #333; } /* Bạc */
+.rank-3 { background-color: #CD7F32; color: #333; } /* Đồng */
+
+.name {
+    flex-grow: 1; /* Chiếm hết không gian còn lại */
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.category {
+    background-color: #000000; /* Nền đen */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    margin-left: 15px;
+    min-width: 25px;
+    text-align: center;
+    font-size: 1em;
+}
